@@ -20,7 +20,7 @@ class JokesAPI:
     # getJokes()
     class _Read(Resource):
         def get(self):
-            return jsonify(getJokes())
+            return jsonify(getJokes();)
 
     # getJoke(id)
     class _ReadID(Resource):
